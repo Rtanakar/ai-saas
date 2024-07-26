@@ -26,7 +26,7 @@ export async function askQuestion(id: string, question: string) {
     (doc) => doc.data().role === "human"
   );
 
-  //   Tomorrow
+  //  Day 4 Tomorrow
 
   const userMessage: Message = {
     role: "human",
